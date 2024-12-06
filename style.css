@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.lorem {
+  color: #FFF;
+  font-family: Poetsen One;
+  font-size: 44.452px;  
+  margin: -635px auto 0;
+  width: 1258px;
+}
+img {
+  display: block;
+  margin: 156px auto 0;
+  width: 1400px;
+  height: 674px;
+}
+.subscription_wrapper {
+  margin-top: 591px;
+  border-radius: 24px;
+  background-color: #EBF8FE;
+  width: 1137px;
+  margin: 591px auto 0;
+}
+.subscription_wrapper, .form_box {
+  padding: 40px 32px;
+}
+.sub_wrap {
+  margin: 24px auto 0;
+  max-width: 500px;
+}
+h1 {
+  color: #181D27;
+  font-family: "Inria Sans";
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: -1.28px;
+  text-align: center;
+}
+.subscription_wrapper_p {
+  color: #535862;
+  font-family: "Instrument Sans";
+  font-size: 32px;
+  line-height: 44px; 
+}
+.sub_email_wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  width: 345px;
+}
+#email {
+  width: 100%;
+  padding: 12px 14px;
+  color: #717680;
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 8px;
+  border: 1px solid #D5D7DA;
+  background-color: #FFF;
+}
+.subscribe {
+  padding: 12px 18px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px; 
+  border-radius: 8px;
+  border: 2px solid #FFF;
+  background: #007CB8;
+  vertical-align: top;
+}
+.privacy {
+  color: #535862;
+  font-family: Inter;
+  font-size: 14px;
+  line-height: 20px;
+}
+.privacy_a {
+  color: #535862;
+  font-family: Inter;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration-skip-ink: none;
+  text-underline-position: from-font;
+}
+.form_box {
+  border-radius: 24px;
+  background-color: #EBF8FE;
+  width: 546px;
+  margin: 72px auto;
+}
+.margin_top_24 {
+  margin-top: 24px;
+}
+h2 {
+  color: #181D27;
+  font-family: "Inria Sans";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px; 
+  letter-spacing: -0.8px;
+}
+#email2, #name {
+  display: block;
+  font-family: "Noto Sans Georgian";
+  font-size: 14px;
+  line-height: 22px; 
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #380054;
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 8px;height: 48px;
+}
+.form_box * {
+  width: 100%;
+}
+.quest_log * {
+  width: auto;
+}
+.second_question, .first_question {
+  color: #1B003D;
+  font-family: "Noto Sans Georgian";
+  font-size: 14px;
+  line-height: 18px;
+}
+.radio_div, .checkbox_div {
+  margin-top: 10px;
+}
+.special_radio, .special_checkbox {
+  margin-top: 7px;
+}
+.quest_log label {
+  margin-left: 11px;
+  color: #6D5F8B;
+  font-family: "Noto Sans Georgian";
+  font-size: 14px;
+  line-height: 22px; 
+}
+.name_wrapper label, .email_wrapper label {
+  color: #1B003D;
+  font-family: "Noto Sans Georgian";
+  font-size: 14px;
+  line-height: 18px; 
+}

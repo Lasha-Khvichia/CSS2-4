@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./images/icon.svg" />
+
+    <!-- fonts are installed here -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hind+Vadodara:wght@300;400;500;600;700&family=IBM+Plex+Sans+KR&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+Georgian:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Phetsarath:wght@400;700&family=Poetsen+One&family=Prata&family=Rubik+Mono+One&display=swap" 
+      rel="stylesheet" 
+    />
+
+    <title>Geeks for Geeks</title>
+  </head>
+
+  <body>
+
+    <img src="./images/image (3).png" alt="Just a picture" />
+    <p class="lorem">
+      Lorem ipsum dolor sit amet consectetur, 
+      adipisicing elit. Accusantium, pariatur. 
+      Doloremque eveniet eos at reiciendis ducimus 
+      nihil id explicabo expedita, natus, 
+      temporibus impedit voluptate, in quaerat 
+      debitis ab magni. Exercitationem.
+    </p>
+
+    <div class="subscription_wrapper">
+      <h1>Be the first to know when we launch</h1>
+      <p class="subscription_wrapper_p margin_top_24">
+        We’re still building. Subscribe for updates 
+        and 20% off when we launch. No spam, we promise!
+      </p>
+      <div class="sub_wrap margin_top_24">
+        <form>
+          <div class="sub_email_wrapper">
+            <input type="email" name="email" id="email" placeholder="Enter your email" />
+            <p class="privacy">We care about your data in our <a href="#" class="privacy_a">privacy policy.</a></p>
+          </div>
+          <button type="submit" class="subscribe">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="form_box">
+      <h2>Submit form</h2>
+      <form>
+        <div class="name_wrapper margin_top_24">
+          <label for="name">Full name</label>
+          <input type="text" name="name" id="name" placeholder="Please write you name" />
+        </div>
+        <div class="email_wrapper margin_top_24">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email2" placeholder="Please write you email" />
+        </div>
+        <div class="quest_log margin_top_24">
+          <p class="first_question">Would you recomment GeeksforGeeks to a friends?</p>
+          <div class="radio_div special_radio">
+            <input type="radio" checked name="recomendation" id="yes1">
+            <label for="yes1">Yes</label>
+          </div>
+          <div class="radio_div">
+            <input type="radio" name="recomendation" id="yes2">
+            <label for="yes2">Yes</label>
+          </div>
+          <div class="radio_div">
+            <input type="radio" name="recomendation" id="yes3">
+            <label for="yes3">Yes</label>
+          </div>
+        </div>
+        <div class="quest_log margin_top_24">
+          <p class="second_question">Language and frameworks known (Checks all that apply)</p>
+          <div class="checkbox_div special_checkbox">
+            <input type="checkbox" name="language" id="language1" />
+            <label for="language1">C</label>
+          </div>
+          <div class="checkbox_div">
+            <input type="checkbox" name="language" id="language2" />
+            <label for="language2">C++</label>
+          </div>
+          <div class="checkbox_div">
+            <input type="checkbox" name="language" id="language3" />
+            <label for="language3">Java</label>
+          </div>
+          <div class="checkbox_div">
+            <input type="checkbox" checked name="language" id="language4" />
+            <label for="language4">Python</label>
+          </div>
+        </div>
+      </form>
+    </div>
+
+  </body>
+
+</html>
