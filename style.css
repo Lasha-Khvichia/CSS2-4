@@ -1,20 +1,67 @@
+/* || General CSS*/
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-.lorem {
-  color: #FFF;
-  font-family: Poetsen One;
-  font-size: 44.452px;  
-  margin: -635px auto 0;
-  width: 1258px;
 }
 img {
   display: block;
   margin: 156px auto 0;
   width: 1400px;
   height: 674px;
+}
+h1 {
+  color: #181D27;
+  font-family: "Inria Sans";
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: -1.28px;
+  text-align: center;
+}
+h2 {
+  color: #181D27;
+  font-family: "Inria Sans";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px; 
+  letter-spacing: -0.8px;
+}
+
+/* || ID Selectors */
+
+#email2, #name {
+  display: block;
+  font-family: "Noto Sans Georgian";
+  font-size: 14px;
+  line-height: 22px; 
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #380054;
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 8px;height: 48px;
+}
+#email {
+  width: 100%;
+  padding: 12px 14px;
+  color: #717680;
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 8px;
+  border: 1px solid #D5D7DA;
+  background-color: #FFF;
+}
+
+/* || Class Selectors */
+
+.lorem {
+  color: #FFF;
+  font-family: Poetsen One;
+  font-size: 44.452px;  
+  margin: -635px auto 0;
+  width: 1258px;
 }
 .subscription_wrapper {
   border-radius: 24px;
@@ -29,15 +76,6 @@ img {
   margin: 24px auto 0;
   max-width: 500px;
 }
-h1 {
-  color: #181D27;
-  font-family: "Inria Sans";
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 60px;
-  letter-spacing: -1.28px;
-  text-align: center;
-}
 .subscription_wrapper_p {
   color: #535862;
   font-family: "Instrument Sans";
@@ -48,17 +86,6 @@ h1 {
   display: inline-block;
   vertical-align: middle;
   width: 345px;
-}
-#email {
-  width: 100%;
-  padding: 12px 14px;
-  color: #717680;
-  font-family: Inter;
-  font-size: 16px;
-  line-height: 24px;
-  border-radius: 8px;
-  border: 1px solid #D5D7DA;
-  background-color: #FFF;
 }
 .subscribe {
   padding: 12px 18px;
@@ -94,25 +121,6 @@ h1 {
 }
 .margin_top_24 {
   margin-top: 24px;
-}
-h2 {
-  color: #181D27;
-  font-family: "Inria Sans";
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 60px; 
-  letter-spacing: -0.8px;
-}
-#email2, #name {
-  display: block;
-  font-family: "Noto Sans Georgian";
-  font-size: 14px;
-  line-height: 22px; 
-  padding: 8px 16px;
-  border-radius: 8px;
-  border: 1px solid #380054;
-  background-color: rgba(0, 0, 0, 0);
-  margin-top: 8px;height: 48px;
 }
 .form_box * {
   width: 100%;
